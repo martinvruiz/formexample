@@ -1,12 +1,54 @@
-# React + Vite
+# FormExample
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Formulario de registro construido con React, Vite y React Hook Form.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologías usadas
 
-## Expanding the ESLint configuration
+- React
+- Vite (bundler rápido y moderno)
+- React Hook Form (gestión y validación de formularios)
+- Tailwind CSS (estilos modernos y responsivos)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Características
+
+- Validación en tiempo real de campos requeridos
+- Validación de formato de email con mensaje personalizado
+- Validación de edad mínima (18 años)
+- Mensajes de error visibles y claros
+- Diseño moderno y responsivo con Tailwind CSS
+
+---
+
+## Instalación
+
+1. Clonar el repositorio:
+
+```bash
+  git clone https://github.com/martinvruiz/formexample.git
+```
+
+2. Instalar dependencias:
+
+```bash
+  npm install
+```
+
+3. Ejecutar la app en modo desarrollo:
+
+```bash
+  npm run dev
+```
+
+4. Abrir http://localhost:5173 en el navegador.
+
+---
+
+## Uso
+
+Completar el formulario y presionar Registrarse.
+
+Los campos requeridos y formatos incorrectos mostrarán mensajes de error para guiar la corrección.
